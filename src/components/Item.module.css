@@ -1,0 +1,27 @@
+.item{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(189, 187, 184);
+    margin-bottom: 15px;
+    height: 45px;
+}
+.item:hover{
+    background-color: antiquewhite;
+}
+.item button{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    font-size: 18px;
+
+    
+}
+.item button:hover{
+    transform: scale(1.1);
+}
+ h3{
+    margin-top: 50px;
+}
